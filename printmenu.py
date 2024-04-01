@@ -1,0 +1,18 @@
+#view menu function that has different options 
+def print_menu():
+    print("===============================================")
+    print("|========= Hospital Management System ========|")
+    print("===============================================")
+    print("|  Option |            Description            |")
+    print("===============================================")
+    print("|   .1.   | Add a new patient record          |")
+    print("|   .2.   | Update an existing patient record |")
+    print("|   .3.   | Remove a patient record           |")
+    print("|   .4.   | View all patients                 |")
+    print("|   .5.   | Schedule an appointment           |")
+    print("|   .6.   | View Appointments of All Doctors  |")
+    print("|   .7.   | Issue prescription                |")
+    print("|   .8.   | View prescriptions                |")
+    print("|   .9.   | Summary of a patient              |")
+    print("|   .10.  | Exit                              |")
+    print("===============================================")
